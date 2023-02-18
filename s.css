@@ -1,0 +1,48 @@
+
+    body{
+        margin: 40px 70px;
+        background-color: black;
+        color: white;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #id2{
+        flex-direction: column;
+        width: 500px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        height: 32px;
+        padding-left: 20px;
+        font-size: 15px;
+        background-color: black;
+        border: 1px solid white;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+        color: white;
+    }
+    #id2:focus{
+        border: 1px solid rgb(245, 116, 116)
+    }
+    #id3{
+        width: 606px;
+        height: 34px;
+        margin-bottom: 30px;
+        font-weight: 700;
+    
+    }
+    table,th,td{
+        border: 1px solid white;
+        height: 30px;
+        align-items: center;
+        font-weight: 500;
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse ;
+    }
+    
+    

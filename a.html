@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Table</title>
+    <link rel="stylesheet" type="text/css" href="/s.css">
+</head>
+
+<body>
+     <div class="container">
+<h1>Library Management System</h1>
+
+<form method="POST" name="sample" autocomplete="off">
+<br>
+    Book Name <input type="text" name="bookName" id="id2" onfocus="this.value=' '"> <br>
+    Issued To <input type="text" name="issued" id="id2" onfocus="this.value=' '" style="margin-left: 30.5px;">
+
+    <br><br>
+    <input type="button" id="id3" name="add" value="Issue Book" onclick="addStudent();" class="btn btn-success">
+
+            <table id="tbl" class="table" >
+                <thead >
+                <th>ID</th> 
+                <th>Book Name</th>
+                <th>Issued To</th>
+                <th>Issuesd Date and Time</th>
+                <th>Status</th>
+               
+                </thead>
+                  
+	    
+                 <tbody>
+                     
+                 </tbody>
+             </table>
+
+</form>
+
+<script src="v.js"></script>
+</div>
+    </body>
+</html>
